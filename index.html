@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Studio | Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">Nova<span>Studio</span></a>
+
+      <!-- Hamburger (UI only) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Digital Design Studio</p>
+          <h1>Fresh, clean & responsive UI for modern brands.</h1>
+          <p class="hero-sub">
+            We craft websites that look sharp on mobile, tablet and desktop
+            with pixel-perfect layouts.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Work</a>
+            <a href="#services" class="btn ghost">Our Services</a>
+          </div>
+          <div class="hero-meta">
+            <span>10+ Live Projects</span>
+            <span>24/7 Support</span>
+            <span>Fast Delivery</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <p class="hero-card-title">Next launch</p>
+          <h2>Brand Refresh 2.0</h2>
+          <p class="hero-card-meta">Launching in 03 days</p>
+          <div class="progress-bar">
+            <span></span>
+          </div>
+          <ul class="hero-stats">
+            <li>
+              <p>Mobile First</p>
+              <strong>100%</strong>
+            </li>
+            <li>
+              <p>Accessibility</p>
+              <strong>AA</strong>
+            </li>
+            <li>
+              <p>Performance</p>
+              <strong>90+</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>What we design</h2>
+          <p>
+            Layouts tailored for every screen size with clean, readable
+            typography and balanced spacing.
+          </p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Mobile Layout</h3>
+            <p>
+              Compact stacked sections, large tap targets and a sticky
+              header for quick navigation.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Tablet Layout</h3>
+            <p>
+              Split content, two-column grids and comfortable white space
+              for medium screens.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Desktop Layout</h3>
+            <p>
+              Multi-column grids, sidebar content and immersive hero
+              sections for wide screens.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured layouts</h2>
+          <p>
+            A quick preview of how the same content rearranges on
+            different breakpoints.
+          </p>
+        </header>
+
+        <div class="layout-showcase">
+          <div class="layout-card">
+            <p class="tag">Mobile</p>
+            <div class="layout-viewport mobile">
+              <span class="bar"></span>
+              <span class="block"></span>
+              <span class="block small"></span>
+            </div>
+          </div>
+          <div class="layout-card">
+            <p class="tag">Tablet</p>
+            <div class="layout-viewport tablet">
+              <span class="bar"></span>
+              <div class="row">
+                <span class="block"></span>
+                <span class="block"></span>
+              </div>
+            </div>
+          </div>
+          <div class="layout-card">
+            <p class="tag">Desktop</p>
+            <div class="layout-viewport desktop">
+              <span class="bar"></span>
+              <div class="row">
+                <span class="block wide"></span>
+                <span class="block"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Ready to redesign your layout?</h2>
+          <p>
+            This is a practice project for a responsive website task —
+            customize the text and colors as you like.
+          </p>
+        </div>
+        <div class="contact-pill">
+          <span class="dot"></span>
+          <p>Drop a mail: you@example.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>© 2025 Nova Studio. Built for CSS Task 3.</p>
+      <p>Mobile • Tablet • Desktop • Hamburger UI</p>
+    </div>
+  </footer>
+</body>
+</html>
